@@ -1,0 +1,45 @@
+HelloWorld.md
+## This is a markdown file
+
+'''''''''''''''''''''''''''''''''''''''''''''
+Coursera https://class.coursera.org/datascitoolbox-030/
+John Hopkins; Bloomberg School of Public Health
+The Data Scientist’s Toolbox by Jeff Leek Roger Peng Brian Caffo
+Duration 4 weeks July2015
+Week1 Week2 Week3 Lecture, Study, Quiz - Completed
+'''''''''''''''''''''''''''''''''''''''''''''
+Project Assignemnt Due26Jul2015
+Create a text file called HelloWorld.md
+Add the line "## This is a markdown file" (without the quotation marks) to the document (without the quotation marks)
+Push the document to the datasciencecoursera repo you created on Github
+Submit the link to the HelloWorld.md file on your Github repo.
+'''''''''''''''''''''''''''''''''''''''''''''
+Create text file; Git commands:
+$ cd gitrepo_datasciencecoursera > change working directory
+$ ls 						> lists the files
+$ git init
+$ git add HelloWorld.md.txt			> to local repository
+$ commit -m "message"				> displays the folder contents and the file version changes
+$ git checkout -b datasciencecoursera		>swith  branch in hub from the master
+$ git branch					> displays present location
+$ git remote add origin https://github.com/gopalkriz/datasciencecoursera.git
+$ git push [gopalkriz] [datasciencecoursera]	> updates local commits to the remote
+$ git checkout master				> switch back the location in hub
+
+'''''''''''''''''''''''''''''''''''''''''''''
+
+echo # Data-Scientist-Toolbox-Coursera >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/gopalkriz/Data-Scientist-Toolbox-Coursera.git
+git push -u origin master
+
+'''''''''''''''''''''''''''''''''''''''''''''
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/gopalkriz/Data-Scientist-Toolbox-Coursera.git
+git push -u origin master
+
+'''''''''''''''''''''''''''''''''''''''''''''
